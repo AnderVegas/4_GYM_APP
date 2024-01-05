@@ -1,0 +1,117 @@
+
+
+header {
+    background-color: hsl(0, 0%, 85%);
+    font-family: 'Roboto Mono', monospace;
+    padding: 20px;
+    align-items: center;
+    /* border: 2px solid black;  */
+    color: #D25B5B;
+    display: flex;
+}
+
+header img {
+    margin-right: 590px; /* Ajusta el margen entre la imagen y el texto según sea necesario */
+    margin-left: 2px;
+    /* border: 2px solid black;  */
+}
+
+header h1 {
+    /* border: 2px solid black;*/
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    
+}
+
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    padding: 10px;
+    background-color: #D9D9D9;
+    width: 600px;
+    height: 30px;
+    top: 237px;
+    left: 342px;
+    border-radius: 10px;
+    border: 1px solid #D25B5B;
+
+}
+
+button {
+    padding: 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    display: center; /* Utiliza flexbox para alinear los divs horizontalmente */   
+    align-items: center;
+    text-align: center;
+
+    /* border: 2px solid black;  */
+} 
+
+.actividad{
+    
+    color: #6B6B6B;
+}
+
+.divColor{
+    background-color: #D25B5B;
+    padding: 2px;
+    width: 50%;
+    float: right; /* Agrega esta propiedad para alinear a la derecha */
+    z-index: 1;
+}
+
+.monitor{
+    color: #D25B5B;
+}
+
+.nav-container{
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    /* border: 2px solid black;  */
+}
+
+.nav-container ul {
+    /* border: 2px solid black;  */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+.nav-container li {
+    margin: 0 170px;
+    margin-left: 210px;
+    display: flex;
+    align-items: center; /* Centrar verticalmente el contenido del li */
+    /* border: 2px solid black;  */
+}
+
+
+
+.nav-container img {
+    width: 85px; /* Establece el ancho deseado */
+    /* border: 2px solid black;  */
+    z-index: -1;
+}
+
+.nav-container a:hover {
+    color: #FFD700; /* Color al pasar el mouse sobre el enlace */
+}

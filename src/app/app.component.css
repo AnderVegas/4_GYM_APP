@@ -1,0 +1,56 @@
+
+
+header {
+    background-color: hsl(0, 0%, 85%);
+    font-family: 'Roboto Mono', monospace;
+    padding: 20px;
+    align-items: center;
+    /* border: 2px solid black;  */
+    color: #D25B5B;
+    display: flex;
+}
+
+header img {
+    margin-right: 590px; /* Ajusta el margen entre la imagen y el texto según sea necesario */
+    margin-left: 2px;
+    /* border: 2px solid black;  */
+}
+
+header h1 {
+    /* border: 2px solid black;*/
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    
+}
+
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    padding: 10px;
+    background-color: #D9D9D9;
+    width: 600px;
+    height: 30px;
+    top: 237px;
+    left: 342px;
+    border-radius: 10px;
+    border: 1px solid #D25B5B;
+
+}
+
+button {
+    padding: 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
